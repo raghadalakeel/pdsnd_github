@@ -230,7 +230,7 @@ def main():
         
         
         #To prompt the user whether they would like want to see the raw data
-        enter = ['yes','no']
+        enter = ['y','n']
         user_input = input('Would you like to see the raw data? (Enter:Yes/No).\n')
         
         while user_input.lower() not in enter:
